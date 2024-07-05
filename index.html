@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.contenedor {
+			width: 100%;
+			float:left;
+		}
+		.columna {
+        	width:23%;
+       		float:left;
+			padding: 1%;
+			color: white;
+			text-align: center;
+			height: 120px;
+      	}
+
+		  .columna2 {
+        	width:23%;
+       		float:left;
+			padding: 1%;
+			color: white;
+			text-align: center;
+      	}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<h1 style="text-align: center;">ELEMENTOS DEL DOM</h1>
+		<div class="columna" style="background-color: red;">
+			<div id="miElemento">Elemento</div>
+			<button onclick="cambiarElemento()">cambiar elemento</button>
+		</div>
+		<div class="columna" style="background-color: green;">
+			<img style="width: 25%;" id="miImagen" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+			<button onclick="cambiarImagen()">cambiar imagen</button>
+		</div>
+		<div class="columna" id="elementoPrueba" style="background-color: blue;">
+			<button onclick="cambiarStyle()">cambiar style</button>
+		</div>
+		<div class="columna" style="background-color: black;">
+			<p id="parrafoViejo">creacion y eliminacion de elementos</p>
+			<button onclick="crearElemento()">crear elemento</button>
+			<button onclick="eliminarElemento()">eliminar elemento</button>
+		</div>
+		<div class="columna" style="background-color: salmon; text-align: left;">
+			<ol id="miLista">
+				<li>Julio</li>
+				<li>Carmen</li>
+				<li>Ignacio</li>
+				<li>Elena</li>
+			</ol>
+			<button onclick="navegarLista()">lista</button>
+		</div>
+	</div>
+	
+	<div class="contenedor">
+		<h1 style="text-align: center;">ELEMENTOS DEL BOM</h1>
+		<div class="columna2" style="background-color: red;">
+			<button onclick="redireccionar()">redireccionar</button>
+		</div>
+
+		<div class="columna2" style="background-color: blue;">
+			<button onclick="redireccionarNuevaVentana()">redireccionar en una nueva ventana</button>
+		</div>
+		<div class="columna2" style="background-color: green;">
+			<button onclick="infoNav()">informacion navegador</button>
+		</div>
+
+		<div class="columna2" style="background-color: black;">
+			<button onclick="infoScreen()">informacion pantalla</button>
+		</div>
+
+		<div class="columna2" style="background-color: seagreen;">
+			<button onclick="historyNav1()">historial atras</button>
+			<button onclick="historyNav2()">historial adelante</button>
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
