@@ -1,2 +1,2 @@
 # DomvsBom
-ejemplos practicos del bom y el dom
+ejemplos practicos del bom, el dom y practicas de JavaScript

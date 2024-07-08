@@ -1,3 +1,37 @@
+/* ejemplos JS */
+/* localStorage.setItem('nombre', 'Juan');
+const nombre = localStorage.getItem('nombre');
+console.log(nombre);
+
+const usuario = {
+    nombre: 'Fernando',
+    edad: 30
+}
+localStorage.setItem('usuario', JSON.stringify(usuario));
+const usuarioObj = JSON.parse(localStorage.getItem('usuario'));
+console.log(usuarioObj.nombre);
+console.log(usuarioObj.edad);
+
+localStorage.removeItem('nombre');
+localStorage.clear(); */
+
+/* sessionStorage.setItem('nombre', 'Juan');
+const nombre = sessionStorage.getItem('nombre');
+console.log(nombre);
+
+const usuarioObj = {
+    nombre: 'Fernando',
+    edad: 30
+}
+sessionStorage.setItem('usuario', JSON.stringify(usuarioObj));
+const usuario = JSON.parse(sessionStorage.getItem('usuario'));
+console.log(usuario.nombre);
+console.log(usuario.edad);
+
+
+sessionStorage.removeItem('nombre');
+sessionStorage.clear(); */
+
 /* elementos del dom */
 const cambiarElemento = () => {
     var element = document.getElementById('miElemento');
